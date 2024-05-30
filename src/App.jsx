@@ -6,10 +6,17 @@ import Bai03 from './pages/Bai_3/Bai_03';
 
 function App() {
   return(
-    <div className="App">
-      <Bai01 />
-      <Bai02 />
-      <Bai03 />
+     <div className="App ">
+      <div className="column">
+        <Bai01/>
+      </div>
+      <div className="column">
+        <Bai02/>
+      </div>
+      <div className="column">
+        <Bai03/>
+      </div>
+     
     </div>
   );
  }
