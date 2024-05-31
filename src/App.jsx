@@ -1,10 +1,10 @@
 import './App.css'
-import Bai01 from './pages/Bai_1/Bai_01';
-import Bai02 from './pages/Bai_2/Bai_02';
-import Bai03 from './pages/Bai_3/Bai_03';
+//import ReactRouter1 from './components/React-Router-1/React-Router-1';
+import BaiTapReact01 from './components/BaiTapReact01/BaiTapReactJS01';
 
 
 function App() {
+<<<<<<< Updated upstream
   return(
      <div className="App ">
       <div className="column">
@@ -20,5 +20,18 @@ function App() {
     </div>
   );
  }
+=======
+    return (
+         <BaiTapReact01 />
+         //<ReactRouter1 />
+        
+        );
+  }
+  export default App;
 
-export default App
+
+
+
+
+>>>>>>> Stashed changes
+

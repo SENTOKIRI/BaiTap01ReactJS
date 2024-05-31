@@ -1,0 +1,10 @@
+.error-index{
+    background-color: red;
+    text-align: center;
+    content: "trang loi";
+}
+.success-index{
+    background-color:aquamarine;
+    text-align: center;
+    content: "trang dung";
+}
